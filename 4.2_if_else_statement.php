@@ -19,7 +19,7 @@
 
         echo "<Br><br>";
 
-        if(10 === "10") {
+        if("10" === "10") {
             echo "10 is equal to 10";
         } else {
             echo "10 is NOT equal to 10";

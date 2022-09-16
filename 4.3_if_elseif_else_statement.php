@@ -8,16 +8,30 @@
 </head>
 <body>
 <?php
-    $category = "entertainment";
+    $category = 'sports';
 
-    if($category == "sports") {
-        echo "Nagsumbagay si Arsenal ug Capones tungod ni KC nya ang hinungdan kay kamo nay sumpay";
-    } elseif ($category == "Entertainment") {
-        echo "Gusto gyud mu chula si Capones kang * kay tungod lami sya mu lu2 sa kusina.";
-    } elseif ($category == "politics") {
-        echo "Trending kagabii ang post sa IMF tungod sa ilang post nga naay SEX and Rock and Roll";
+    if ($category == 'sports') {
+        echo "Nasipaan si Khent Maverick ni Chariss kay di kabalo mu tira ug armas.";
+    } elseif ($category == 'showbiz') {
+        echo "Nagsumbagay si Jessa ug si Heart kay naibog sila ni Jeff Michael.";
+    } elseif ($category == 'current events') {
+        echo "Naay isa sa IT3 nga naibog kang _________ kay wala na sila ni ex.";
+    } elseif ($category == 'weather') {
+        echo "Karong adlawa mug-ot ang panahon sama sa iyang kasingkasing nga mug-ot kay wala na si Erlinda ug si Ralph";
     } else {
-        echo "Welcome to Balita";
+        echo "Welcome to IT3 News Update";
+    }
+
+    if ($category == 'sports') {
+        echo "Nasipaan si Khent Maverick ni Chariss kay di kabalo mu tira ug armas.";
+    } else {
+        echo "Welcome to IT3 News Update";
+    }
+
+    if ($category == 'showbiz') {
+        echo "Nagsumbagay si Jessa ug si Heart kay naibog sila ni Jeff Michael.";
+    } else {
+        echo "Welcome to IT3 News Update";
     }
 ?>
 </body>
